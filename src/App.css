@@ -13,21 +13,41 @@
   }
 }
 
-.App-header {
+.firstSection {
   background: linear-gradient(180deg, #000532 0%, rgba(22, 26, 56, 0) 100%);
   position: absolute;
   width: 1338px;
   height: 754px;
   left: 102px;
   top: 0px;
+}
+
+.sectionTitle{
   margin-top: 292px;
-  margin-left: 234px;
 }
 
 .title{
   font-family: Avenir;
-  size: 36px;
+  font-size: 36px;
   line-height: 49.18px;
+  text-align: center;
+  color: white;
+}
+
+.subtitle{
+  font-family: Avenir;
+  font-size: 18px;
+  line-height: 24.59px;
+  text-align: center;
+  color: white;
+}
+
+li{
+  float: left;
+  list-style: none;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  line-height: 19.1px;
   text-align: center;
   color: white;
 }
