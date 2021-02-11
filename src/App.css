@@ -1,11 +1,21 @@
+/*FONTS*/
+@font-face {
+  font-family: "Avenir";
+  src: url("");
+}
+
+.boldFont{
+  font-weight: bold;
+}
+
+/*RESPONSIVE MOBILE*/
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
   }
 }
 
-/*PRIMERA SECCION LANDING
-*/
+/*PRIMERA SECCION LANDING DESKTOP*/
 .first-Section {
   background: linear-gradient(180deg, #000532 0%, rgba(22, 26, 56, 0) 100%);
   position: absolute;
@@ -25,6 +35,8 @@
   line-height: 49.18px;
   text-align: center;
   color: white;
+  width: 1008px;
+  margin-left: 138px;
 }
 
 .subtitle{
@@ -33,6 +45,8 @@
   line-height: 24.59px;
   text-align: center;
   color: white;
+  width: 811px;
+  margin-left: 238px;
 }
 
 li{
@@ -45,13 +59,17 @@ li{
 }
 
 button{
-  top: 532px;
+  position: absolute;
+  top: 525px;
   background: #FFFFFF;
   box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   border: 0px;
   padding: 12px 39px 11px 38px;
-  margin-left: 563px;
+  margin-left: 525px;
+  margin-bottom: 222px;
+  width: 248px;
+  height: 44px;
 }
 
 

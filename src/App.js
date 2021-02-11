@@ -14,10 +14,9 @@ function App() {
       <div className="first-Section">
         <div className="section-Title">
           <p className="title">
-            <span className="boldFont">TRADE WITH THE</span> GLOBAL FOREX
-          </p>
-          <p className="title">
-            TRADING SPECIALIST
+            <span className="boldFont">TRADE WITH THE</span>GLOBAL FOREX</p>
+          <p className="title"> 
+            <span className="boldFont">TRADING SPECIALIST</span>
           </p>
           <p className="subtitle">TRADE ON THE GO, LIKE A PRO</p>
           <button>LEARN MORE</button>
