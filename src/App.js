@@ -11,27 +11,17 @@ function App() {
           <li>ES</li>
         </ul>
       </header>
-      <div className="firstSection">
-        <div className="sectionTitle">
+      <div className="first-Section">
+        <div className="section-Title">
           <p className="title">
-            TRADE WITH THE GLOBAL FOREX
+            <span className="boldFont">TRADE WITH THE</span> GLOBAL FOREX
           </p>
           <p className="title">
             TRADING SPECIALIST
           </p>
           <p className="subtitle">TRADE ON THE GO, LIKE A PRO</p>
-        </div>
-
-      
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          
+          <button>LEARN MORE</button>
+        </div>        
       </div>
     </div>
   );
